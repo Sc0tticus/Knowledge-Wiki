@@ -41,6 +41,16 @@ App Component
   
   useState = Function for working with React's 'state'system. State is used to keep track of data that changes over time. Used to make Ract update the HTML on the screen.
   
+  Syntax for generating a React project: npx create-react-app myapp
+  
+  npm install -g create-react-app: npm: runs 'npm', install: installs a package, -g: installs the package globally, create-react-app: name of the package being installed.
+  
+  Versions of JS: ES5 (Supported across all browsers), ES2015 (Almost completely supported), ES2016, ES2017, ES2018 (Poor support).
+  
+  Babel: Command line tool, can take any version of JS and spit out a newer version.
+  
+  create-react-app -> Brand new React project -> Webpack, Babel, Dev Server.
+  
   
   
 
