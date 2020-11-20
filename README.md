@@ -11,6 +11,8 @@ JSX = set of instructions telling React what we want to show on the screen.
 
 JSX Elements -> Tell React to create a normal HTML element (div, span, h1, table, hr, input) or tell React to show another component (Field, Translate, Languages).
 
+-> Call the App function, get back JSX, and turn it into HTML -> index.js
+
 App Component 
   <div>
     <Field />  -> Call the App function get back JSX  turn it into HTML -> index.js -> ReactDOM.render(<App/>, document.getElementById("root"));
@@ -37,9 +39,8 @@ App Component
   
   What was all the 'useState' stuff ?
   
-  
+  useState = Function for working with React's 'state'system. State is used to keep track of data that changes over time. Used to make Ract update the HTML on the screen.
   
   
   
 
--> Call the App function, get back JSX, and turn it into HTML -> index.js
