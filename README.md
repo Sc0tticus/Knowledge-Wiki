@@ -55,10 +55,14 @@ App Component
   
   JSX: Special dialect of JS (its not HTML!). Browsers don't understant JSX code! We write JSX then run tools to turn it into normal JS. Very similar in form and function to HTML with a couple differences.
   
-  JSX vs HTML: Adding custom styling to an element uses different syntax, Adding a class to an element uses different syntax, JSX can reference JS variables.
+  JSX vs HTML: Adding custom styling to an element uses different syntax, Adding a class to an element uses different syntax (use className instead of class inside a JSX element), JSX can reference JS variables.
   
   HTML: <div style="background-color: red;"><div>
   JSX: <div style={{backgroundColor:'red'}}></div>
+  
+  Component Nesting: A component can be shown inside of another.
+  Component Reusability: We want to make components that can be easily be reused through our application.
+  Component Configuration: We should be able to configure a component when it is created.
   
   
   
