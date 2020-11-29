@@ -51,6 +51,15 @@ App Component
   
   create-react-app -> Brand new React project -> Webpack, Babel, Dev Server.
   
+  A React component is either a function or class --> that produces HTML to show the user (done using JSX) --> and handles feedback from the user (Using Event Handlers). Before JSX gets sent down to a users browser it gets converted in normal JS code.
+  
+  JSX: Special dialect of JS (its not HTML!). Browsers don't understant JSX code! We write JSX then run tools to turn it into normal JS. Very similar in form and function to HTML with a couple differences.
+  
+  JSX vs HTML: Adding custom styling to an element uses different syntax, Adding a class to an element uses different syntax, JSX can reference JS variables.
+  
+  HTML: <div style="background-color: red;"><div>
+  JSX: <div style={{backgroundColor:'red'}}></div>
+  
   
   
 
