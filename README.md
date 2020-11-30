@@ -1,6 +1,24 @@
 # Knowledge-Wiki
 
-#React
+#Official React Docs
+
+#React only Updates What's necessary
+ReactDOM compares the element and its children to the previous one, and only applies the DOM updates necessary to bring the DOM to the desired state. Even though we create an element describing the whole UI tree on every tick, only the text node whose contents have changed gets updated by ReactDOM.
+
+#Components and Props
+-components let you split the UI into independent, reusable pieces, and think about each piece in isolation.
+-components are like JS functions. They accept arbitrary inputs called "props" and return React elements describing what should appear on the screen.
+
+#Function and Class Components
+class Welcome extends React.Component{
+  render(){
+    return <h1>Hello, {this.props.name}</h1>
+    }
+   }
+   
+ when React sees an element representing a user-defined component, it passes JSX attributes and children to this component as a single object. We call this object "props".
+
+#Modern React with Redux [2020]
 The App function is a React Component.
 
 App Component ->returns-> JSX
