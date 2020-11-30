@@ -17,6 +17,28 @@ class Welcome extends React.Component{
    }
    
  when React sees an element representing a user-defined component, it passes JSX attributes and children to this component as a single object. We call this object "props".
+ 
+ function Welcome(props){
+  return <h1>Hello, {props.name}</h1>
+  }
+  
+  const element = <Welcome name="Sara" />
+  ReactDOM.render(
+  element,
+  document.getElementById('root')
+  );
+  
+  1. We call ReactDOM.render() with the <Welcome name="Sara" /> element.
+  2. React calls the Welcome component with {name: 'Sara'} as the props.
+  3. Our Welcome component returns a <h1>Hello, Sara</h1> element as the result.
+  4. React DOM efficiently updates the DOM to match <h1>Hello, Sara</h1>
+  
+ -Note: always start component names with a capital letter.
+ -React treats components starting with lowercase letters as DOM tags.
+ 
+ #Composing Components
+ 
+  
 
 #Modern React with Redux [2020]
 The App function is a React Component.
